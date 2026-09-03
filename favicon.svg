@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="The Dallas Agency">
+  <rect width="32" height="32" rx="6" fill="#000000"/>
+  <rect x="4" y="4" width="9.5" height="24" fill="#ffffff"/>
+  <polygon points="15,4 15,28 28,16" fill="#2F91E5"/>
+</svg>
