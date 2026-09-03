@@ -113,7 +113,7 @@
     background:rgba(0,0,0,.88); backdrop-filter:blur(12px);
     border-bottom:1px solid var(--line);
   }
-  nav img.logo { height:56px; width:auto; display:block; }
+  nav img.logo { height:64px; width:auto; display:block; }
   nav .right { display:flex; align-items:center; gap:28px; }
   nav ul { display:flex; gap:26px; list-style:none; font-size:11px; letter-spacing:.18em; font-weight:600; }
   nav ul a { color:#cfcfcf; }
@@ -160,6 +160,9 @@
   .contact a { border:1px solid var(--blue); color:var(--blue); padding:14px 22px; font-size:13px; font-weight:700; letter-spacing:.08em; }
   footer { border-top:1px solid var(--line); padding:28px 40px 48px; display:flex; justify-content:space-between; color:#555; font-size:11px; letter-spacing:.12em; gap:16px; flex-wrap:wrap; }
   @media (max-width:900px) {
+    nav { padding:16px 20px; }
+    nav img.logo { height:72px; }
+    .pill { padding:10px 12px; font-size:11px; }
     nav ul { display:none; }
     .hero { grid-template-columns:1fr; min-height:auto; padding-top:72px; }
     .hero-copy { grid-column:1; }
